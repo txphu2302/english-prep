@@ -2,9 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type TagTreeDto = {
-    id: string;
-    name: string;
-    children: Array<TagTreeDto>;
+import type { RoleDto } from './RoleDto';
+export type RolesDto = {
+    roles: RoleDto;
 };
 

@@ -2,9 +2,11 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type TagTreeDto = {
+export type HydratedIdentityDto = {
+    avatarUrl?: string;
+    bio?: string;
+    fullName?: string;
     id: string;
-    name: string;
-    children: Array<TagTreeDto>;
+    username: string;
 };
 

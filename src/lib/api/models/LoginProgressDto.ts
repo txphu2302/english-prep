@@ -2,9 +2,9 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type TagTreeDto = {
-    id: string;
-    name: string;
-    children: Array<TagTreeDto>;
+export type LoginProgressDto = {
+    longestStreak: number;
+    streak: number;
+    total: number;
 };
 

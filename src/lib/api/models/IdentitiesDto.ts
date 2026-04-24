@@ -2,9 +2,9 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type TagTreeDto = {
-    id: string;
-    name: string;
-    children: Array<TagTreeDto>;
+import type { IdentityDto } from './IdentityDto';
+export type IdentitiesDto = {
+    identities: Array<IdentityDto>;
+    cursor: string;
 };
 

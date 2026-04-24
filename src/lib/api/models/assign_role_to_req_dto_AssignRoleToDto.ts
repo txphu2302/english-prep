@@ -2,9 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type TagTreeDto = {
-    id: string;
-    name: string;
-    children: Array<TagTreeDto>;
+export type assign_role_to_req_dto_AssignRoleToDto = {
+    roleId: string;
 };
 

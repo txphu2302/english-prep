@@ -2,9 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type TagTreeDto = {
+export type CredentialDto = {
     id: string;
-    name: string;
-    children: Array<TagTreeDto>;
+    type: string;
 };
 
